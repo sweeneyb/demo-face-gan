@@ -26,12 +26,12 @@ That will bring up a jupyter notebook environment with login instructions.  Once
 clone https://github.com/sweeneyb/demo-face-gan.git (either in a cell or in a temp notebook):
 start a notebook in the demo-face-gan directory
 run this in a cell:
-
+```
 !pip install streamlit
 !pip install -r requirements.txt
 !pip install tensorflow_utils
 !streamlit run app.py
-
+```
 
 ### Questions? Comments?
 
