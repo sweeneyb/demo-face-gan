@@ -14,6 +14,24 @@ cd demo-face-gan
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## Running via docker
+
+Environment:
+```
+docker run -p 8888:8888 -p 8501:8501 jupyter/tensorflow-notebook:7db1bd2a7511
+```
+
+That will bring up a jupyter notebook environment with login instructions.  Once you're in:
+
+clone https://github.com/sweeneyb/demo-face-gan.git (either in a cell or in a temp notebook):
+start a notebook in the demo-face-gan directory
+run this in a cell:
+
+!pip install streamlit
+!pip install -r requirements.txt
+!pip install tensorflow_utils
+!streamlit run app.py
+
 
 ### Questions? Comments?
 
