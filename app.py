@@ -8,8 +8,8 @@ import urllib
 
 sys.path.append('tl_gan')
 sys.path.append('pg_gan')
-import feature_axis
-import tfutil
+import tl_gan.feature_axis as feature_axis
+import tensorflow_utils as tfutil
 import tfutil_cpu
 
 # This should not be hashed by Streamlit when using st.cache.
